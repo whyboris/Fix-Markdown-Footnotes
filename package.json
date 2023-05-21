@@ -1,0 +1,28 @@
+{
+  "name": "fix-markdown-footnotes",
+  "version": "0.0.1",
+  "description": "Re-number markdown footnotes into correct order",
+  "keywords": [
+    "markdown",
+    "footnotes"
+  ],
+  "author": "Boris Yakubchik",
+  "homepage": "https://yboris.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whyboris/Fix-Markdown-Footnotes.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js test/test.md",
+    "global": "npm install -g ."
+  },
+  "main": "index.js",
+  "bin": {
+    "fmf": "./index.js"
+  },
+  "dependencies": {
+    "fdir": "6.0.1"
+  }
+}
