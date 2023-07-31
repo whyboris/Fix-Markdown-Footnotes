@@ -2,7 +2,12 @@
 
 const fs = require("fs");
 
-crypto = require("crypto");
+let crypto;
+try {
+  crypto = require("node:crypto");
+} catch (err) {
+  crypto = require("crypto");
+}
 
 const { fdir } = require("fdir");
 
