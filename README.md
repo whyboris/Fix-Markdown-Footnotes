@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/fix-markdown-footnotes.svg)](http://badge.fury.io/js/fix-markdown-footnotes)
+
 # Fix Markdown Footnotes
 
 `fmf` is a *CLI* that will reorder foonotes chronologically.
